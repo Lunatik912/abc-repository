@@ -1,0 +1,38 @@
+Name: Gagan Badiger
+Sec: DevOps Batch-13
+Additional Task: 08
+Topic: Linux
+Date: 10/03/2026
+
+1. What is difference between sed command and grep command
+- grep → used to search and highlight/displays patterns in files.
+- sed → used to edit or modify, delete or replace text in files.
+
+2. How to delete the pattern only in 4th line and 7th line in a closed file?
+We can use the below command-
+Syntax: sed ‘4s/<1stpattern>//g;7s/<2ndpattern>//g’ <filename>
+[“//” is used to delete the pattern]
+ex: In the below example I wanted delete pattern named “good” from 4th line as well as from 7th line, so I used 
+sed '4s/good//g;7s/good//g' xyz.txt
+ 
+
+2. How to remove blank lines using sed command?
+We can use the following command-
+Syntax: sed ‘/^$/d’ <filename> [“^$” used to remove all the blank lines ]
+ex: In the below example, I have the content in “charlie.txt” filled with blank lines, so when I use the below command to remove them and now, I can see the blank lines are removed now
+sed '/^$/d' xyz.txt
+ 
+ 
+
+
+
+
+4. How to delete the lines where the pattern is present using sed command?
+We can use the following command-
+Syntax: sed ‘/<pattern>/d’ <filename>
+ex: In the below example, I have listed all the lines with the pattern filled with “hello” and I want them all to get deleted, so I used the below command to do it-
+sed '/hello/d' xyz.txt
+ 
+
+
+

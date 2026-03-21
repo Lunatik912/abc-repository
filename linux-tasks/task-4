@@ -1,0 +1,42 @@
+Name: Gagan Badiger
+Sec: DevOps Batch-13
+Additional Task: 05
+Topic: Linux
+Date: 06/03/2026
+
+1.How to fetch only first and last line of a file using head a tail
+we can do that by using the following command-
+Syntax: head -1 <filename>; tail -1 <filename>
+ex: below I wanted to print 1st and last line of file, so I used
+head -1 alpha.txt; tail -1 alpha.txt[;= used to run both the commands sequentially]
+ 
+
+2. What is the use of the below command-
+   head file1.txt file2.txt file3.txt
+This command is used to fetch the info of the first 10 lines written in each of the text file on the terminal.
+ex: Below I used to show the contents/lines of each file on the terminal, so I used
+Syntax: head bravo.txt charlie.txt delta.txt
+ 
+
+3. How can you suppress file headers when using multiple files?
+   hint: head -q file1.txt file2.txt
+We can use the following command as given in hint we can use [-q-quiet] command 
+Syntax: head -q <file1-name> <file2-name> <file3-name>, but there won’t be any gaps between the words in order to distinguish between them.
+ex: head -q bravo.txt charlie.txt delta.txt
+ 
+
+
+
+
+
+4. How do you print all lines except the last 10 lines of a file?
+We can do that by using the following command-
+Syntax: head -n -10 <filename>
+ex: here in the below picture I have listed all the lines and wanted to print all except last 10 lines so I used 
+head -n -10 file2.txt
+ 
+
+
+
+
+

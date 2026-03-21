@@ -1,0 +1,60 @@
+Name: Gagan Badiger
+Sec: DevOps Batch-13
+Additional Task: 07
+Topic: Linux
+Date: 09/03/2026
+
+1. Explain the working of this command ---> echo "message" | tee -a file.txt
+So, the above command shows that, whatever the word we echo that will be added at the end of the line of the file we selected. And this does not overwrite it.
+ex: In the below example, I used the command, 
+	echo hello_there | tee -a file2.txt 
+what it does is, it records the message “hello_there” and it pastes the message into the file “file2.txt” last line
+ 
+
+2. Explore on free and free -h command
+- free → Displays system memory usage (RAM and swap).
+for ex:
+  
+
+
+ - free -h → Shows the same memory information in human-readable format (KB/MB/GB).[-h=human readable format]
+for ex:
+ 
+
+3. How do you count the number of lines that contain a specific word using wc and grep?
+We can use the below command-
+Syntax: grep <pattern/word> <filename> | wc -l
+ex: In the below example, I wanted to count the lines containing “morning”, so to check I used cat and then I used this command,
+grep morning file2.txt | wc -l
+ 
+
+4. What does this coomand will do----> sudo chgrp <groupname> <file-name>
+The above command changes the group ownership of the file to the given group.
+for ex: 
+-	Step1: In the below example, I am choosing “file2.txt” and as you can see the ownership is given to “root”, so I want to change it
+ 
+
+
+-	Step2: I want the ownership to be given to the “user33”
+ 
+-	Step3: I use the following command, to change ownership,
+sudo chgrp user33 file2.txt
+ 
+-	Step4: Now we can see below the ownership has been changed to “user33” now
+ 
+
+
+
+
+5. How to identify soft/symbolic link
+To identify soft/symbolic link, on the terminal we can see the "l" on the terminal and also the "->" sign as well
+for ex:
+ 
+
+6. Can we create a link for files and dir's?
+We cannot create link for directories using the hardlink, in the below example when tried to create link it said “hard link not allowed for directory”
+ 
+but yes we can create a link for the files and dir's using soft link, as shown in the below picture
+ 
+
+

@@ -1,0 +1,26 @@
+Name: Gagan Badiger
+Sec: DevOps Batch-13
+Additional Task: 11
+Topic: Linux
+Date: 13/03/2026
+
+1. Difference between wget and curl command
+Note: execute wget and curl with an example
+- wget command is to be used mainly to download the files from the internet
+- curl command is used to transfer data between the client and the server and also to test API
+Example for the wget command-
+Below I downloaded the file named “robots.txt” from “www.google.com” , so I used 
+Syntax: wget https://www.google.com/robots.txt
+ 
+
+
+
+
+
+
+Example for curl command-
+Below I used the curl command to display the contents of the file named “robots.txt” from “www.google.com” into the terminal,
+Syntax: curl https://www.google.com/robots.txt
+ 
+
+

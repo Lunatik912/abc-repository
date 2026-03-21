@@ -1,0 +1,46 @@
+Name: Gagan Badiger
+Sec: DevOps Batch-13
+Additional Task: 04
+Topic: Linux
+Date: 05/03/2026
+
+1. What is the difference between more and less command?
+- Both commands are used to view large files on one screen at a time in Linux.
+- In more command we can only navigate through forward scrolling whereas in less command we can navigate through both forward and backward scrolling
+- More command is somewhat slow when compared to the less command which is little faster.
+More command window—
+ 
+
+
+
+
+
+
+
+Less command window—
+ 
+
+2. In the vi editor, how to delete the character in forward direction?
+we use the character 'x' in the vi editor to delete character in forward direction from the cursor
+ 
+
+ 
+
+3. In the vi editor, how to delete the character in backward direction?
+we use the character 'X'[capital X] in the vi editor to delete the character in backward direction from the cursor.
+ 
+
+ 
+
+4. In the VI editor, how do you search and replace an exact word pattern?
+Example text: good morning goodmorning good & Write a command so that only the exact word good is replaced, and goodmorning should not be affected.
+-	Step 1: Open vi editor of the file
+-	Step 2: Now we have to write
+Syntax: %s/\<exact-pattern\>/replace-pattern/g [We have use \< \> in search pattern to lock the boundary. ]
+-	ex: %s/\<good\>/GOOD/g
+ 
+
+ 
+
+
+

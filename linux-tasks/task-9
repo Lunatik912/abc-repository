@@ -1,0 +1,26 @@
+Name: Gagan Badiger
+Sec: DevOps Batch-13
+Additional Task: 10
+Topic: Linux
+Date: 12/03/2026
+
+1. What is the difference between http and https?
+- http stands for hyper test transfer protocol, this doesn't have any security features to keep url safe, not encrypted
+- https stands for hyper text transfer protocol secure, this has a set of protocol features to keep the url secure, encrypted
+
+2. How can you view all processes for a specific user?
+We can use the following command-
+Syntax: ps -u username
+ 
+
+3. What is the diff between hostname -I and hostname -i?
+- hostname -I is used to display all ip addresses, 
+when executing hostname -I we can see the “inet” from “ens33” i,e 192.168.46.128
+ 
+ 
+
+-  hostname -i is used to display ip address mapped only to our hostname, when executing hostname -i we can see the “inet” from “lo” i,e 127.0.1.1
+ 
+ 
+
+

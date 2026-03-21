@@ -1,0 +1,34 @@
+Name: Gagan Badiger
+Sec: DevOps Batch-13
+Practice Task
+Topic: Linux
+Date: 03/03/2026
+
+1. How do you copy multiple files at once from one location to another location?
+In the below image I wanted to copy all the .txt files from “ying” to “yang”, so
+-	Step 1: First, we need to go to the directory from which we need to copy the files, so
+Syntax: cd <src-directory>
+ex: cd ying
+
+-	Step 2: Now suppose we have 3 files in the directory now and we need to copy them all to other location/directory
+Syntax: cp -r  <src-dir>  <dst-dir>
+ex: cp -r /home/gagan/ying /home/gagan/yang
+ 
+ 
+
+
+2. What happens if the destination file already exists while copying a file?
+This will  get replaces with the old to new file[The file gets overwritten, means the old data/file will be wiped out and instead the new one will be there]
+
+3. How do you move all .txt files to another directory?
+Here, I wanted to move all “.txt” files from “textfiles” directory to “ying” directory-
+-	Step 1: First we need to go to the directory from where we need to move the multiple .txt files
+Syntax: cd <src-directory>
+ex: cd textfiles
+
+-	Step 2: Now suppose we have 3 files in the directory now and we need to move them all to another location/directory
+Syntax: mv *.txt <src-dir> <dst-dir>
+ex: mv *.txt /home/gagan/textfiles /home/gagan/ying/ (this moves only the txt formatted files)
+ 
+ 
+

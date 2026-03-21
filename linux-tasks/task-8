@@ -1,0 +1,43 @@
+Name: Gagan Badiger
+Sec: DevOps Batch-13
+Additional Task: 09
+Topic: Linux
+Date: 11/03/2026
+
+1. How to display the first and last column of each line on the terminal using AWK?
+We can use the following command-
+Syntax: awk ‘{print $1, $NF}’ <filename>
+ex: In the below example, I wanted to display only the 1st and last column from “qwert.txt”  file, so I used
+awk '{print $1, $NF}' qwert.txt
+ 
+
+
+
+
+
+
+2. How to display the line number followed by last column content of a file using AWK?
+We can use the following command-
+Syntax: awk '{print NR, $NF}' <filename>
+ex: In the below example, I wanted to display the last column with line numbers, so I used 
+	awk '{print NR, $NF}' qwert.txt
+ 
+
+3. What does awk '{print NR,$0}' <file-name> command will do?
+This displays all the columns present in the file also the no. of lines in a sequence
+ 
+
+
+
+4. How do you check the contents of a .tar.gz archive file without extracting it?
+   Hint: tar -tzvf rk123.tar.gz
+Here we can use the tar -tzvf filelst.tar.gz command to check the contents of that file without extracting it
+ 
+
+5. How to compress multiple files?
+We can use the following command-
+Syntax: tar -czvf <filename.tar.gz> <file1.txt> <file2.txt> <file3.txt>
+ex: In the below example, we use the command “tar -czvf namelstupdated.tar.gz file1.txt file2.txt” to compress multiple files
+ 
+
+

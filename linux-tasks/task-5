@@ -1,0 +1,23 @@
+Name: Gagan Badiger
+Sec: DevOps Batch-13
+Additional Task: 06
+Topic: Linux
+Date: 07/03/2026
+
+1. How to add multiple users together to a group?
+We can do it by using the below command-
+Syntax: sudo gpasswd -M <user1> <user2> <user3> <groupname>
+ex: In the below example I wanted to add “name2, name3, name4” into the group “namelist”, so I used 
+	sudo gpasswd -M name2, name3, nam4 namelist
+ 
+ 
+ 
+2. How to remove multiple users together from a group ?
+We can do it by using the below command-
+Syntax: sudo gpasswd -M <user2> <user3> <groupname> (here we just have to name the users which we want to keep)
+ex: In the below example I wanted to remove “name2 and name3” from the group “namelist” and only wanted to keep “name4”, so I used 
+ sudo gpasswd -M user4 grpname
+   
+ 
+
+

@@ -1,0 +1,35 @@
+Name: Gagan Badiger
+Sec: DevOps Batch-13
+Additional Task: 12
+Topic: Linux
+Date: 14/03/2026
+
+1. Find all the files which are greater than 4kb and delete it
+We can use the command-
+Syntax: find . -type f -size +4k -delete
+ex: In the below example, 
+-	Step1: I have highlighted the files which are greater than 4kb using the command “ls -lt”
+-	Step2: Use the command “find .-type f -size +4k -delete” to delete the files larger than 4kb
+-	Step3: Now using the command “ls -lt” I can see the files having more than 4kb have been deleted.
+ 
+
+
+
+
+2. Find all the files with .txt and change the permission to 777
+We can use the following command-
+Syntax: find . -type f -name "*.txt" | xargs chmod 777
+ex: Below example, 
+-	Step1: I used “ls -lt” to check what all the textfiles present in.
+-	Step2: Then I executed the command “find . -type f -name “*.txt” | xargs chmod 777
+-	Step3: now, we can see the textfiles having 777 permission using “ls -lt”
+ 
+ 
+
+3. Find all the files in pwd, but search only up to a maximum depth of 2 levels.
+   hint find . -maxdepth 2 -type f
+We can use as per the hint given above, which is,
+Syntax: find . -maxdepth 2 -type f
+ 
+
+

@@ -1,0 +1,65 @@
+Name: Gagan Badiger
+Sec: DevOps Batch-13
+Additional Task: 03
+Topic: Linux
+Date: 04/03/2026
+
+1. How to insert a blank line, below the line where the cursor is pointing in vi editor
+- Step 1: go to the vi editor
+- Step 2: Press esc + o{small} [to insert a blank line below the line of the cursor] from where our cursor pointing
+ 
+ 
+
+2. How to search and replace case insensitive pattern
+     -	 Step 1: go to the vi editor
+     -	Step 2: next
+ Syntax: esc + :%s/<search pattern>/<return pattern>/gi 
+-	ex: esc + :s/good/better/gi
+
+ 
+ 
+
+
+
+
+
+
+
+
+3. How to search and replace case insensitive pattern 
+- Step 1: go to the vi editor
+- Step 2: Now press
+Syntax: Esc + :4,10s/<old pattern>/<new pattern>/g
+-	ex: esc + :4,10s/good/better/g
+
+ 
+ 
+
+
+
+
+
+
+
+
+
+
+
+4. What is the use of man command and what is the difference between man and –help
+- The man command is used to display the system's manual pages, providing in-depth documentation on commands, system calls, files, and more. 
+- The --help option is used to display a brief usage summary directly within the terminal.
+	Man	Help
+Content	Comprehensive and detailed documentation, often spanning multiple screens.	Concise usage summary and a quick reminder of common options.
+Output	Displayed using a pager, allowing easy scrolling and searching.	Output directly to the terminal screen, which can scroll past the visible area.
+
+More command window-
+ 
+
+
+
+
+
+--help command window
+ 
+
+
