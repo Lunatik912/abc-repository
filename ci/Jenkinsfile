@@ -1,0 +1,11 @@
+pipeline {
+    agent any
+
+    stages {
+        stage('Custom Path Build') {
+            steps {
+                echo "Running Jenkinsfile from ci/ folder"
+            }
+        }
+    }
+}
